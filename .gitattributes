@@ -1,2 +1,29 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Autor Eliezer Vladimir Jimenez
+ CREANDO EL GRUPO CASA
+groupadd casa
+# CREANDO LOS USUARIOS
+adduser ashly
+adduser vladimir
+# Agregando los usuarios al grupo Casa
+adduser ashly casa
+adduser vladimir casa
+# Cambiando nombre del grupo a Familia
+groupmod -n Familia Casa
+
+
+#!/bin/bash
+groupadd familia
+adduser ashly
+adduser vladimir
+adduser ashly familia
+adduser vladimir familia
+cat /etc/group/
+echo "Se ha creado 1 grupo y dos usuario"
+echo "adios"
+exit
+
+
+
+
+
+
